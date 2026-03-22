@@ -2,9 +2,10 @@
 # https://vitepress.dev/reference/default-theme-home-page
 layout: home
 
+##Apex Pathing is an open sourced pathing library for ftc and it's great
 hero:
-  name: "Supernova Docs"
-  text: "Documentation for the Supernova pathing library for FTC"
+  name: "Apex Pathing Docs"
+  text: "Documentation for the Apex Pathing library for FTC"
   tagline: My great project tagline
   actions:
     - theme: brand
