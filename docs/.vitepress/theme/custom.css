@@ -19,11 +19,11 @@
 /* Targets the title text inside :::info containers */
 
 .custom-block.info .custom-block-title {
-  background: linear-gradient(to right, #f06, #4a90e2);
+  background: -webkit-linear-gradient(120deg, #41d1ff 30%, #3468fe);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
   background-clip: text;
-  font-weight: bold;
+  -webkit-text-fill-color: transparent;
+  font-weight: 700;
 }
 /* Optional: Change the left border color to match */
 .custom-block.info {
