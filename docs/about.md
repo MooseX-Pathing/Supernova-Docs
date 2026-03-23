@@ -1,16 +1,13 @@
-.vitepress/theme/custom.css
 # Our Story
 
-
 :::info What Do Our Goals look like?
-We mission is to develop the most efficient and versatile localizer for autonomous pathing, 
-supporting swerve, mecanum, and tank drive as well as multiple localizers. We aim to use 
+Our mission is to develop the most efficient and versatile localizer for autonomous pathing,
+supporting swerve, mecanum, and tank drive as well as multiple localizers. We aim to use
 Quintic Splines to achieve our goals of efficiency.
 :::
 
-
 :::info Our Contributors
-Our pathing library has been a big project, and many teams contributed to our success. 
+Our pathing library has been a big project, and many teams contributed to our success.
 We'd like to take a moment to thank them here:
 * 31616 - 404 Not Found
 * 6165 - MSET Cuttlefish
@@ -22,4 +19,12 @@ We'd like to take a moment to thank them here:
 * 27621 - Heron - Alumni
 * 23571 - JEdison Knights - Alumni
 * and more...
-:::
+  :::
+
+<style>
+/* If you prefer to keep the CSS inside this specific file instead of custom.css, 
+   you can paste this block at the bottom of your Markdown file: */
+.custom-block.info .custom-block-title {
+  color: #ff69b4; 
+}
+</style>

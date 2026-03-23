@@ -16,9 +16,19 @@
   
   display: inline-block;
 }
+/* Targets the title text inside :::info containers */
+.custom-block.info .custom-block-title {
+  color: #ff69b4; /* Your preferred pink hex code */
+}
+
+/* Optional: Change the left border color to match */
+.custom-block.info {
+  border-color: #ff69b4;
+}
 
 @keyframes supernova-slide {
   to {
     background-position: 200% center;
   }
 }
+
