@@ -3,9 +3,11 @@
 .VPHero .name {
   background: linear-gradient(
     120deg, 
-    #00D2FF 0%, 
-    #7B61FF 50%, 
-    #C21BFF 100%
+    #00D2FF 0%,   /* Start: Cyan */
+    #7B61FF 25%,  /* Transition: Blue/Purple */
+    #C21BFF 50%,  /* Middle: Magenta */
+    #7B61FF 75%,  /* Transition back */
+    #00D2FF 100%  /* End: Cyan (Match the start!) */
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
