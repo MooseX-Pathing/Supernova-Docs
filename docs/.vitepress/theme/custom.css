@@ -3,9 +3,9 @@
 .VPHero .name {
   background: linear-gradient(
     120deg, 
-    #ff4500 0%, 
-    #7b2ff7 50%, 
-    #ff4500 100%
+    #00D2FF 0%, 
+    #7B61FF 50%, 
+    #C21BFF 100%
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
