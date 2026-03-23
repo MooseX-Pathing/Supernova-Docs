@@ -23,8 +23,6 @@ We'd like to take a moment to thank them here:
   :::
 
 <style>
-/* If you prefer to keep the CSS inside this specific file instead of custom.css, 
-   you can paste this block at the bottom of your Markdown file: */
 .custom-block.info .custom-block-title {
   color: #ff69b4; 
 }

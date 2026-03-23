@@ -1,4 +1,5 @@
 # GUIDE FOR TUNING
+Here's our advice for tuning your robot:
 
 ::: info Forward Velocity Tuner
 The forward velocity tuner determines your robot’s maximum forward speed 
