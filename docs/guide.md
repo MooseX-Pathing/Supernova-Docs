@@ -12,7 +12,7 @@ A longer distance is better as it allows the robot to his higher speeds
 The lateral velocity tuner determines your robot’s maximum strafe speed to accurately 
 create paths. The robot will run in the x positive (left) direction for 40 inches but 
 this can be changed in the LateralVelocityTuner.java file. Longer Distances yield 
-better results
+better results.
 :::
 
 style>
