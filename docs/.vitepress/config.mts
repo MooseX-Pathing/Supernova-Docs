@@ -1,4 +1,5 @@
 import { defineConfig } from 'vitepress'
+import container from 'markdown-it-container'
 import guide from "./sidebar/guide.mts";
 
 export default defineConfig({
