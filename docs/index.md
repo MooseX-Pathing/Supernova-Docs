@@ -8,4 +8,8 @@ hero:
     - theme: brand
       text: Get Started
       link: /about
+  image:
+    src: /apexPathing logo.png
+    alt: logo
+     
 ---
