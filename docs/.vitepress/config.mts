@@ -4,6 +4,9 @@ import guide from "./sidebar/guide.mts";
 export default defineConfig({
   title: "ApexPathing Docs",
   description: 'ApexPathing Docs',
+  head: [
+    ['link', { rel: 'icon', href: '/images/logo.png' }]
+  ],
   base: '/Supernova-Docs/',
   themeConfig: {
     nav: [
