@@ -23,6 +23,7 @@ export default defineConfig({
      sidebar: {
         '/guide/': guide
      }
-  }
+  },
+  appearance: 'force-dark' 
 
 })
