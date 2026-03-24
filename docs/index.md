@@ -69,6 +69,7 @@ hero:
 </div>
 <div id="right-side">
 <div id="contain">
+<CodeBlock description="An example piece of code using ApexPathing: Quick, Concise, and easy-to-use">
 
 ::: code-group
 ```kotlin [Kotlin {An example piece of code using ApexPathing: Quick, Concise, and easy-to-use}]
@@ -112,6 +113,8 @@ follower.followPath(path);
 ```
 
 :::
+
+</CodeBlock>
         
 </div>
 </div>
