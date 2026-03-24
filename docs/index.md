@@ -69,7 +69,6 @@ hero:
     </div>
     <div id="right-side">
       <div id="contain">
-
 ```java
 path = follower.pathBuilder()
           .addPath(
@@ -89,7 +88,6 @@ path = follower.pathBuilder()
           .build();
         follower.followPath(path);
 ```
-
       </div>
     </div>
   </div>
