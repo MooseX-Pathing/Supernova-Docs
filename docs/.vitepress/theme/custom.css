@@ -1,13 +1,13 @@
 /* docs/.vitepress/theme/custom.css */
 
+/* MAIN PAGE TITLE ANIMATION */
 .VPHero .name {
-  /* SEAMLESS UNIDIRECTIONAL GRADIENT */
   background: linear-gradient(
     90deg, 
-    #00a8cc 0%,   /* Dimmer Cyan Start */
-    #7B61FF 33%,  /* Purple */
-    #C21BFF 66%,  /* Magenta */
-    #00a8cc 100%  /* Dimmer Cyan End (Matches 0%) */
+    #00a8cc 0%,
+    #7B61FF 33%,
+    #C21BFF 66%,
+    #00a8cc 100%  
   );
   background-size: 200% auto;
   -webkit-background-clip: text;
@@ -16,8 +16,8 @@
   
   display: inline-block;
 }
-/* Targets the title text inside :::info containers */
 
+/* Custom coloring for titles of info boxes */
 .custom-block.info .custom-block-title {
   background: -webkit-linear-gradient(120deg, #41d1ff 30%, #3468fe);
   -webkit-background-clip: text;
@@ -25,26 +25,19 @@
   -webkit-text-fill-color: transparent;
   font-weight: 700;
 }
-/* Optional: Change the left border color to match */
+
+/* Info block border color/gradient */
 .custom-block.info {
   border: 2px solid transparent;
   background-image:
-    linear-gradient(#fff, #fff), /* Background color */
-    linear-gradient(45deg, #42d392, #647eff, #42d392); /* Gradient border colors */
+    linear-gradient(#fff, #fff),
+    linear-gradient(45deg, #42d392, #647eff, #42d392);
   background-origin: border-box;
   background-clip: padding-box, border-box;
   background-size: 200% 200%;
   animation: gradientMove 3s ease infinite;
 }
-
-/* Keyframes for animation */
-@keyframes gradientMove {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
-}
-
-/* Adjust for dark mode if necessary */
+/* Adjust fill and border for dark mode */
 .dark .custom-block.info {
   background-image:
     linear-gradient(#1e1e20, #1e1e20),
@@ -58,8 +51,17 @@
   color: #037BFC
 }
 
+/* Keyframe for main page gradient animation */
 @keyframes supernova-slide {
   to {
     background-position: 200% center;
   }
 }
+
+/* Keyframe for info box border animation */
+@keyframes gradientMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
