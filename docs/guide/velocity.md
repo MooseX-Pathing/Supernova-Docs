@@ -18,7 +18,7 @@ better results.
 
 
 :::tip
-We recommend using a freshly charge battery for this test
+We recommend using a freshly charged battery for this test
 :::
 
 <style>
