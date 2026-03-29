@@ -10,7 +10,7 @@ hero:
       link: /about
   tagline: Autonomous pathing revolutionized
   image:
-    src: /images/apex_logo.png
+    src: /images/apex_logo.webp
     alt: ApexPathing Logo
 
   
