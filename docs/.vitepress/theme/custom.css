@@ -1,5 +1,9 @@
 /* docs/.vitepress/theme/custom.css */
 
+.dark {
+  --vp-c-bg: #1C0D0D
+}
+
 /* MAIN PAGE TITLE ANIMATION */
 .VPHero .name {
   background: linear-gradient(
